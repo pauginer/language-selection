@@ -1,0 +1,42 @@
+body {
+	padding-left: 10%;
+	padding-right: 10%;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+div.navbar {
+	background-color: #f8f8f8;
+	color: #252525;
+	padding: 20px;
+}
+
+span.uls-trigger {
+	cursor: pointer;
+	color: #252525;
+	background: #f0f0f0;
+	border: 1px solid #ddd;
+	padding: 5px;
+	border-radius: 3px;
+}
+
+span.uls-trigger:after {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  vertical-align: top;
+  border-top: 4px solid #000000;
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  content: "";
+  opacity: 0.3;
+  vertical-align:middle;
+  margin:0 0 0 4px;
+}
+
+.container {
+	margin: 40px 15px;
+}
+
+.uls-menu {
+	border-radius: 0;
+}
