@@ -65,3 +65,10 @@ span.uls-trigger:after {
 	top: -19px;
 	position: absolute;
 }
+
+h2 {
+	color: #252525;
+	font-size: 28px;
+	padding: 30px 0 5px 0;
+	font-weight: lighter;
+}
