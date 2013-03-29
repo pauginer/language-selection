@@ -39,4 +39,29 @@ span.uls-trigger:after {
 
 .uls-menu {
 	border-radius: 0;
+	left: auto !important;
+	margin-left: 18px;
+	margin-top: 12px;
+}
+
+.uls-menu:before {
+	display: inline-block;
+	content: "";
+	border-bottom: 20px solid #AAA;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	left: 18px;
+	top: -20px;
+	position: absolute;
+}
+
+.uls-menu:after {
+	display: inline-block;
+	content: "";
+	border-bottom: 20px solid white;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	left: 18px;
+	top: -19px;
+	position: absolute;
 }
