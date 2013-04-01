@@ -10,7 +10,7 @@ div.navbar {
 	padding: 20px;
 }
 
-span.uls-trigger {
+.uls-trigger {
 	cursor: pointer;
 	color: #252525;
 	background: #f0f0f0;
@@ -19,7 +19,7 @@ span.uls-trigger {
 	border-radius: 3px;
 }
 
-span.uls-trigger:after {
+.uls-trigger:after {
   display: inline-block;
   width: 0;
   height: 0;
